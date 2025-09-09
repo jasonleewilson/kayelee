@@ -4,7 +4,7 @@ import background from "../assets/background.svg";
 ---
 
 <main
-  class='h-screen bg place-items-center bg-[url(/animals.svg)] bg-bottom bg-no-repeat'
+  class='h-screen bg place-items-center bg-[url(/animals.svg)] bg-contain lg:bg-cover bg-bottom bg-no-repeat'
 >
   <div class='text-center'>
     <img
@@ -17,11 +17,11 @@ import background from "../assets/background.svg";
       class='inline-block w-40 h-40 animate__animated animate__bounce animate__infinite'
     />
     <h1 class='text-5xl mb-4'>kayelee.com</h1>
-    <p class='text-2xl mb-8'>
+    <p class='md:text-2xl mb-8'>
       One of my favorite learning games that my <a
         href='https://jasonleewilson.com/'
         target='_blank'
-        class='underline'>dad built</a
+        class='underline'>daddy built</a
       >.
     </p>
     <a
@@ -31,21 +31,12 @@ import background from "../assets/background.svg";
     >
       Checkout Kidsbind
     </a>
+    <p class='h-1/3 mt-8 p-8'>
+      Built with love by: <a href='https://jasonleewilson.com/' target='_blank'
+        >jasonleewilson.com</a
+      >
+    </p>
   </div>
-
-  {/* SVG */}
-  {
-    /* <div class='flex and justify-center items-end w-full'>
-        <Image
-          src='/animals.svg'
-          alt=''
-          // width={100}
-          // height={100}
-          fill={true} // Fills the parent element
-          // class='object-cover'
-        />
-      </div> */
-  }
 </main>
 
 <!-- <div id="container">
